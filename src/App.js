@@ -24,7 +24,7 @@ class App extends Component {
     if (task === "") return;
 
     const newTask = {
-      id: new Date(),
+      id: Date.now(),
       text: task
     };
 
